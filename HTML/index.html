@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta name="keywords" content="" />
-    <meta name="description" content="" />
-    <title>Sparkapp - App Landing Page</title>
+    <title>Places - Мобильное приложение</title>
     <!--Bootstrap -->
     <link
       rel="stylesheet"
@@ -29,25 +28,51 @@
     <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
     <!-- Fav and touch icons -->
     <link
-      rel="apple-touch-icon-precomposed"
-      sizes="144x144"
-      href="assets/images/favicon-icon/apple-touch-icon-144-precomposed.png"
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/images/icons/apple-touch-icon.png"
     />
     <link
-      rel="apple-touch-icon-precomposed"
-      sizes="114x114"
-      href="assets/images/favicon-icon/apple-touch-icon-114-precomposed.png"
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/images/icons/favicon-32x32.png"
     />
     <link
-      rel="apple-touch-icon-precomposed"
-      sizes="72x72"
-      href="assets/images/favicon-icon/apple-touch-icon-72-precomposed.png"
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/images/icons/favicon-16x16.png"
     />
+    <link rel="manifest" href="assets/images/icons/site.webmanifest" />
     <link
-      rel="apple-touch-icon-precomposed"
-      href="assets/images/favicon-icon/apple-touch-icon-57-precomposed.png"
+      rel="mask-icon"
+      href="assets/images/icons/safari-pinned-tab.svg"
+      color="#5bbad5"
     />
-    <link rel="shortcut icon" href="assets/images/favicon-icon/favicon.png" />
+    <link rel="shortcut icon" href="assets/images/icons/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta
+      name="msapplication-config"
+      content="assets/images/icons/browserconfig.xml"
+    />
+    <meta name="theme-color" content="#ffffff" />
+
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:title"
+      content="Places - Скидки в Ваших любимых заведениях"
+    />
+    <meta property="og:url" content="http://places-spb.ru" />
+    <meta
+      property="og:image"
+      content="https://places-spb.ru/assets/images/og/buyvilis.jpg"
+    />
+    <meta
+      property="og:description"
+      content="Пользуйтесь скидками в заведениях наших партнеров, получайте приятные бонусы"
+    />
     <!-- Google-Font-->
     <link
       href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700"
@@ -95,7 +120,9 @@
               <li><a href="#intro" class="js-target-scroll">Главная</a></li>
               <li><a href="#about-us" class="js-target-scroll">Места</a></li>
               <li><a href="#features" class="js-target-scroll">Плюсы</a></li>
-              <li><a href="#" class="js-target-scroll">Скачать</a></li>
+              <li>
+                <a href="#download-app" class="js-target-scroll">Скачать</a>
+              </li>
             </ul>
           </div>
         </div>
@@ -112,7 +139,7 @@
             <div class="intro-text">
               <h1>Скидки в любимых заведениях города</h1>
               <p>Получайте скидки с мобильным приложением Places</p>
-              <a href="#" class="btn">Скачать</a>
+              <a href="#download-app" class="btn js-target-scroll">Скачать</a>
             </div>
           </div>
           <div class="col-md-6">
@@ -233,75 +260,33 @@
           <div class="col-lg-6">
             <div class="heading-wrap"><h2>Скачать Places</h2></div>
             <p>Скачайте приложение прямо сейчас. Это абсолютно бесплатно!</p>
-            <a href="#" class="btn"
-              >Get the App <i class="fa fa-long-arrow-right"></i
-            ></a>
+            <div class="download-app-container">
+              <a
+                href="https://itunes.apple.com/ru/app/buy-vilis/id1435913789?mt=8"
+                class="download-btn"
+              >
+                <img src="assets/images/app-store-download-button.svg" />
+              </a>
+              <a
+                href="https://play.google.com/store/apps/details?id=com.BuyVilis.BuyVilis"
+                class="download-btn"
+              >
+                <img src="assets/images/google-play-download-button.svg" />
+              </a>
+            </div>
           </div>
           <div class="col-lg-6">
             <div class="image-wrap img-right margin-img">
-              <img src="assets/images/794x865.png" alt="image" />
+              <img
+                src="assets/images/iphone_02.png"
+                alt="мобильное приложение places"
+              />
             </div>
           </div>
         </div>
       </div>
     </section>
     <!-- /Download-app -->
-
-    <!-- Testimonials -->
-    <section
-      id="testimonials"
-      class="section-padding gradient white-text bg-pattern"
-    >
-      <div class="container">
-        <div class="section-header text-center">
-          <div class="sub-heading"><h5>Довольные пользователи</h5></div>
-          <h2>Отзывы</h2>
-        </div>
-        <div class="owl-carousel">
-          <div class="item">
-            <div class="client-img">
-              <img src="assets/images/150x150.jpg" alt="image" />
-            </div>
-            <p>
-              "Скачал приложение. Чувствую себя богом. Точнее сказать... Богом.
-              С большой буквы.""
-            </p>
-            <div class="client-info">
-              <h6>Аполлон Тхоржевский</h6>
-              <span>GOD@Apollo</span>
-            </div>
-          </div>
-
-          <div class="item">
-            <div class="client-img">
-              <img src="assets/images/150x150.jpg" alt="image" />
-            </div>
-            <p>
-              "Иншалла это приложение поглотит весь Питер, а потом всю Россию."
-            </p>
-            <div class="client-info">
-              <h6>Natalie Hernandez</h6>
-              <span>CEO@Stocksy</span>
-            </div>
-          </div>
-
-          <div class="item">
-            <div class="client-img">
-              <img src="assets/images/150x150.jpg" alt="image" />
-            </div>
-            <p>
-              "Bule Label Labs delivered on time, within budget and went above
-              and beyond to make my app a success with the new relaunch."
-            </p>
-            <div class="client-info">
-              <h6>Natalie Hernandez</h6>
-              <span>CEO@Stocksy</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- /Testimonials -->
 
     <!-- Footer -->
     <footer id="footer" class="white-text">
@@ -310,12 +295,10 @@
           <div class="row">
             <div class="col-lg-4">
               <div class="footer-widgets">
-                <h5>Company</h5>
+                <h5>Компания</h5>
                 <div class="footer-nav">
                   <ul>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Terms & Conditions</a></li>
-                    <li><a href="#">Latest News</a></li>
+                    <li><a href="#">Политика конфиденциальности</a></li>
                   </ul>
                 </div>
               </div>
@@ -323,39 +306,28 @@
 
             <div class="col-lg-4">
               <div class="footer-widgets">
-                <h5>Contact Us</h5>
+                <h5>Связь с нами</h5>
                 <div class="contact_info">
-                  <p>Office Hours: 9am - 6pm, Mon-Fri</p>
                   <p>
-                    <a href="tell"
-                      ><i class="fa fa-phone"></i> +61-12345678980</a
-                    >
-                  </p>
-                  <p>
-                    <a href="mailto:hello@weburl.com"
-                      ><i class="fa fa-envelope"></i> hello@weburl.com</a
+                    По общим вопросам <br />
+                    <a href="mailto:help@places-spb.ru"
+                      ><i class="fa fa-envelope"></i> help@places-spb.ru</a
                     >
                   </p>
                 </div>
               </div>
             </div>
-
             <div class="col-lg-4">
               <div class="footer-widgets">
-                <h5>Signup Our Newsletter</h5>
-                <div class="newsletter">
+                <h5>Партнерство</h5>
+                <div class="contact_info">
                   <p>
-                    Sign up to get tips, free giveaways, and more in our weekly
-                    newsletter.
+                    По вопросам партнерства <br />
+                    <a href="mailto:partnership@places-spb.ru"
+                      ><i class="fa fa-envelope"></i>
+                      partnership@places-spb.ru</a
+                    >
                   </p>
-                  <form>
-                    <input
-                      type="email"
-                      placeholder="Enter Email"
-                      class="form-control"
-                    />
-                    <input type="submit" value="Sign Up" class="submit-btn" />
-                  </form>
                 </div>
               </div>
             </div>
@@ -364,7 +336,7 @@
       </div>
       <div class="footer-bottom text-center">
         <div class="container">
-          <p>&copy; 2018 Sparkapp. All rights reserved.</p>
+          <p>&copy; 2019 Places. Все права защищены.</p>
         </div>
       </div>
     </footer>
