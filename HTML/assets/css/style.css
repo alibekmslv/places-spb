@@ -1094,6 +1094,7 @@ ul.sub-menu ul.sub-menu {
   margin: 0 auto 30px;
 }
 .margin-img {
+  margin: -160px 0 -142px -100px;
   /* margin: -260px 0 -260px -100px; */
   display: table;
   width: 100%;
@@ -1890,6 +1891,7 @@ ul.sub-menu ul.sub-menu {
     padding: 20px 0;
   }
   .margin-img {
+    margin: -20px 0;
     /* margin: -110px 0; */
   }
   .pricing-box {
